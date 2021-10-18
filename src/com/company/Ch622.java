@@ -21,10 +21,10 @@ public class Ch622 {
             System.out.println("Invalid option.");
         }
     }
-    public static double Celsius(double fahrenheit){
+    public static double Celsius(double fahrenheit) {
         return 5.0/ 9.0 * (fahrenheit - 32);
     }
-    public static double Fahrenheit(double celcius){
+    public static double Fahrenheit(double celcius) {
         return 9.0 / 5.0 * (celcius + 32);
     }
 }
